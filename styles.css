@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -19,88 +19,87 @@ header {
     padding: 0 20px;
 }
 
-nav {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.nav-links a:hover {
-    background: #4CAF50;
-    border-radius: 5px;
+.tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
 section {
     padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 #about {
-    text-align: center;
-}
-
-#services {
     background: #f4f4f4;
     text-align: center;
 }
 
-.service-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.service-box {
-    background: #fff;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#skills {
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
     border-radius: 5px;
-    width: 30%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #projects {
-    text-align: center;
+    background: #f4f4f4;
 }
 
 .projects-container {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.project-box {
+.project {
     background: #fff;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 30%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 #contact {
     text-align: center;
-    background: #f4f4f4;
 }
 
 footer {
